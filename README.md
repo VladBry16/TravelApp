@@ -1,4 +1,4 @@
-# TravelApp - Тестовое задание для разработчика Android
+# TravelApp
 
 ## Описание
 
