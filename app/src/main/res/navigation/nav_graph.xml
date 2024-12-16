@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu_flights">
+
+    <fragment
+        android:id="@+id/menu_flights"
+        android:name="com.example.travelapp.ui.FlightsFragment" />
+
+    <fragment
+        android:id="@+id/menu_search"
+        android:name="com.example.travelapp.ui.SearchFragment"/>
+    <fragment
+        android:id="@+id/menu_tickets"
+        android:name="com.example.travelapp.ui.TicketsFragment" />
+
+    <fragment
+        android:id="@+id/menu_hotels"
+        android:name="com.example.travelapp.ui.StubFragment"/>
+
+    <fragment
+        android:id="@+id/menu_shortly"
+        android:name="com.example.travelapp.ui.StubFragment" />
+
+    <fragment
+        android:id="@+id/menu_subscriptions"
+        android:name="com.example.travelapp.ui.StubFragment" />
+
+    <fragment
+        android:id="@+id/menu_profile"
+        android:name="com.example.travelapp.ui.StubFragment" />
+</navigation>
